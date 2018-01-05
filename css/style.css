@@ -1,0 +1,37 @@
+/*
+p {
+	color: red;
+	font-weight: bold;
+	font-size: 36px;
+}*/
+
+p, h1 {
+	color: red;
+}
+
+div p {
+	color: blue;
+}
+
+#first-p {
+	color: green;
+}
+
+.first-p {
+	color: pink;
+}
+
+div {
+	border: 3px solid black;
+	background: pink;
+	color: white;
+	width: 400px;
+	float: left;
+	border-radius: 25px;
+	margin-left: : 30px;
+}
+
+div ul {
+	list-style-type: none;
+	list-style-type: square;
+}
