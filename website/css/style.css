@@ -17,12 +17,12 @@ body {
 .container {
 	width: 780px;
 	margin: 0 auto;
-	background: #FFF;
+	background: #e6e6e6;
+	box-shadow: 0px 9px 13px 5px;
 }
 
 .header {
 	padding: 45px 0 20px 40px;
-	border: 2px solid black;
 }
 
 .menu {
@@ -121,11 +121,26 @@ footer a {
 /*******************Contact Page**********************/
 #contact #form {
     width: 500px;
-    border: 2px solid black;
     padding: 10px;
     margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
 }
 
-.page-heading {
-	text-align: center;
+#contact #form input {
+	width: 100%;
+	border-radius: 5px;
+	height: 20px;
+	background: #d6d6d6;
+}
+
+#contact #form #message {
+	width: 100%;
+	border-radius: 5px;
+	background: #d6d6d6;
+}
+
+#contact #form #submit {
+	height: 30px;
+	background: rgb(59, 118, 135);
 }
